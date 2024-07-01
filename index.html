@@ -46,19 +46,35 @@
           </div>
         </div>
       </header>
+
+      
       <menu id="Inicio" class="grid-item menu">
         <div class="navbar-brand">
           <img src="./assets/img/logo.ico" alt="logo" />
           <h1>Totora viva</h1>
         </div>
-        <ul class="navbar-menu">
-          <li class="navbar-item"><a href="#Inicio">Inicio</a></li>
-          <li class="navbar-item"><a href="#Catalogo">Catalogo</a></li>
-          <li class="navbar-item"><a href="#Ofertas">Ofertas</a></li>
-          <li class="navbar-item"><a href="#Contacto">Contacto</a></li>
-        </ul>
-        <div class="navbar-toggle"><i class="fa-solid fa-bars"></i></div>
+
+        <input type="checkbox" id="expand-toggle">
+            <label for="expand-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Inicio"><i class="fa-solid fa-house"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Catalogo"><i class="fa-sharp fa-solid fa-cart-plus"></i>Catalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Ofertas"><i class="fa-solid fa-tag"></i></i>Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto"><i class="fa-solid fa-phone"></i> Contactanos</a>
+                </li>
+            </ul>
       </menu>
+      
 
       <main id="Catalogo" class="grid-item main">
         <div class="color-container">
